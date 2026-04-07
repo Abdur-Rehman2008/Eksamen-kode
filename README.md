@@ -1,2 +1,2 @@
-# Eksamen-kode
-Eksamen-kode for prøve eksamen
+# Note-app
+note-app med en react-framework
