@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terningspill 🎲</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper clearfix">
+
+        <div class="spiller-0-panel aktiv">
+            <div class="spiller-navn" id="navn-0">Spiller 1</div>
+            <div class="spiller-poeng" id="poeng-0">0</div>
+
+            <div class="spiller-sum-box">
+                <div class="spiller-sum-label">Runde Poeng</div>
+                <div class="spiller-sum-poeng" id="sum-0">0</div>
+            </div>
+        </div>
+
+        <div class="spiller-1-panel">
+            <div class="spiller-navn" id="navn-1">Spiller 2</div>
+            <div class="spiller-poeng" id="poeng-1">0</div>
+
+            <div class="spiller-sum-box">
+                <div class="spiller-sum-label">Runde Poeng</div>
+                <div class="spiller-sum-poeng" id="sum-1">0</div>
+            </div>
+        </div>
+
+        <button class="btn-ny"><i class="fas fa-plus-circle"></i> Nytt spill</button>
+        <button class="btn-kast"><i class="fas fa-dice"></i> Kast terning</button>
+        <button class="btn-hold"><i class="fas fa-hand-paper"></i> Hold</button>
+
+        <input type="number" class="max-poeng" placeholder="Maks poeng (f.eks 100)">
+
+        <!-- Terningen vises med tilfeldig tall fra 1 til 6 -->
+        <img src="img/terning-4.png" alt="Terning" class="terning" id="terning">
+
+    </div>
+
+    <script src="spill.js"></script>
+</body>
+</html>
